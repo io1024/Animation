@@ -71,7 +71,7 @@
 
   + 获取属性动画对象（ObjectAnimator）
   
-    //获取一个指定动画的对象：ObjectAnimator的静态函数
-    ofFloat(Object target,       //执行的目标（谁执行动画）
-            String propertyName, //指定动画的属性名称
-            float... values)     //可变参数，表示移动到的位置
+        //获取一个指定动画的对象：ObjectAnimator的静态函数
+        ofFloat(Object target,       //执行的目标（谁执行动画）
+                String propertyName, //指定动画的属性名称
+                float... values)     //可变参数，表示移动到的位置
