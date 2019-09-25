@@ -13,6 +13,8 @@
 ### 补间动画
 >AnimViewActivity
   + 透明动画（AlphaAnimation）
+          AlphaAnimation(float fromAlpha, //开始的透明度，取值0-1（0表示完全透明，1表示完全不透明）
+                         float toAlpha)   //结束的透明度，取值0-1（0表示完全透明，1表示完全不透明）
 
 ### 属性动画
 >AnimPropertyActivity
